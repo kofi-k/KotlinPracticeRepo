@@ -3,31 +3,40 @@ abstract class AquariumFish : FishAction {
     override fun eat() = println("yum")
 }
 
-class Shark: FishAction, FishColor {
+class Shark : FishAction by PrintingFishAction("hunt and eat fish"),
+    FishColor {
     override val color = "gray"
+}
+
+class Plecostomus(fishColor: FishColor = GoldColor) :
+    FishColor by fishColor,
+    FishAction by PrintingFishAction("eat algae")
+
+class PrintingFishAction(val food: String) : FishAction {
     override fun eat() {
-        println("hunt and eat fish")
+        println(food)
     }
 }
 
-class Plecostomus: FishAction, FishColor {
+//singleton class
+object GoldColor : FishColor {
     override val color = "gold"
-    override fun eat() {
-        println("eat algae")
-    }
 }
+
 interface FishColor {
     val color: String
 }
-interface FishAction  {
+
+interface FishAction {
     fun eat()
 }
+
 interface AquariumAction {
     fun eat()
     fun jump()
     fun clean()
     fun catchFish()
-    fun swim()  {
+    fun swim() {
         println("swim")
     }
 }

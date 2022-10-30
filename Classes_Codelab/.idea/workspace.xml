@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcaa7f10-4672-46c0-bafe-8a8b955afa48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes_Codelab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AbstractClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AquariumFish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MyProp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FiltersAndLambdas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FiltersAndLambdas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FiltersAndLambdas/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FiltersAndLambdas/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="bcaa7f10-4672-46c0-bafe-8a8b955afa48" name="Changes" comment="12 kt files added&#10;2 files modified&#10;---subsequent modifications is on interface delegation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AquariumFish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AquariumFish.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666852639310</updated>
     </task>
+    <task id="LOCAL-00001" summary="12 kt files added&#10;2 files modified&#10;---subsequent modifications is on interface delegation">
+      <created>1667156665016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667156665016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +65,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12 kt files added&#10;2 files modified&#10;---subsequent modifications is on interface delegation" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 kt files added&#10;2 files modified&#10;---subsequent modifications is on interface delegation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Classes_Codelab$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1666854970806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
