@@ -38,3 +38,14 @@ enum class Color(val rgb: Int) {
 enum class Direction(val degrees: Int) {
     NORTH(0), SOUTH(180), EAST(90), WEST(270)
 }
+
+sealed class Seal
+class SeaLion : Seal()
+class Walrus : Seal()
+
+fun matchSeal(seal: Seal): String {
+    return when(seal) {
+        is Walrus -> "walrus"
+        is SeaLion -> "sea lion"
+    }
+}

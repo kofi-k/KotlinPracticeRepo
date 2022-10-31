@@ -9,4 +9,5 @@ fun main() {
     println(Direction.NORTH.ordinal)
     println(Direction.NORTH.degrees)
 
+    println(matchSeal(SeaLion()))
 }
