@@ -8,6 +8,13 @@ fun main(args: Array<String>) {
     val aquariumPlant: AquariumPlant = plant
     aquariumPlant.print()  // what will it print?
     aquariumPlant.isGreen
+
+    val t = "every good boy deserves favour"
+    println(t.substring(6,24))
+    println(t.substring(18,1))
+    println(t.substring(startIndex = 23, endIndex = 7))
+    println(t.length)
+
 }
 fun String.hasSpaces(): Boolean {
     val found = this.find { it == ' ' }
